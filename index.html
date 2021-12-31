@@ -11,11 +11,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
 	<script src="js/jquery-1.12.3.js" type="text/javascript" text="javascript"></script>
-	<script src="js/script.js" defer="defer" type="text/javascript" text="javascript"></script>
 	<title>tiffany&co</title>
 </head>
-<link rel="stylesheet" type="text/css" href="css/common.css" />
-<body onLoad='show_clock()' leftmargin="0" rightmargin="0">
+<body style="overflow-x:hidden;">
 	<div id="wrap">
 		<header>
 			<div id="menu"><a href="#"><img src="img/menu.png" alt="no" /></a></div>
@@ -109,7 +107,7 @@
 				</a></button>
 		</div>
 		<div class="clear"></div>
-		<div id="section4">
+		<div id="section4" class="hideme">
 			<ul>
 				<li><a href="#"><img src="img/contents1.jpg" alt="no" /></a></li>
 				<li>
@@ -121,10 +119,8 @@
 				</li>
 			</ul>
 		</div>
-		<div id="section5">
+		<div id="section5" style="float: right;" class="hideme">
 			<ul>
-
-				<li><a href="#"><img src="img/contents2 (2).jpg" alt="no" /></a></li>
 				<li>
 					<h3>가장 의미있는 티파니 기프트</h3>
 					<p>
@@ -132,6 +128,7 @@
 						표현해보세요.
 					</p>
 				</li>
+				<li><a href="#"><img src="img/contents2 (2).jpg" alt="no" /></a></li>
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -413,6 +410,8 @@
 
 		</div>
 	</div>
+	<script src="js/script.js"></script>
+	<script src="js/common.js"></script>
 </body>
 
 </html>

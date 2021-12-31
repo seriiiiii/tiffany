@@ -1,3 +1,7 @@
+.hideme
+{
+    opacity:0;
+}
 /*pop_up*/
 .pop_in ul{float:left;
 	position:relative;}

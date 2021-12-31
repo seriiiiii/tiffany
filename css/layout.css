@@ -269,8 +269,13 @@ nav{    width: 100%;
     position: relative;
     opacity: 0;
     margin-right: 0;}
-#section5 li{
-			position:absolute;}
+#section5 li{float:left;
+			position:relative;}
+#section5 li:nth-child(1){z-index:5;}
+#section5 li:nth-child(2){
+	float: right;
+    margin-top: -600px;
+}			
 #section5 h3{font-size:30px;
 			font-weight:600;
 			font-family:"nanumgothic";
@@ -284,8 +289,7 @@ nav{    width: 100%;
 			width:420px;
 			line-height:30px;
 			margin-top:45px;}
-#section5 img{width:100%;
-				position:absolute;
+#section5 li img{width:100%;
 				overflow:hidden;
 				}
 

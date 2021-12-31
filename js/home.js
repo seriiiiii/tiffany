@@ -106,7 +106,7 @@ $(".sub4 h2").on("mouseover", function() {
     $(".pop_in5").slideDown();
 	$(".pop_in3").slideUp();
 	$(".pop_in4").slideUp();
-	$(".pop_in2").slideUp();
+	$("#pop_in2").slideUp();
 	$(".pop_in6").slideUp();
 	$(".pop_in7").slideUp();
 	$(".pop_in8").slideUp();
@@ -118,7 +118,7 @@ $(".sub5 h2").on("mouseover", function() {
     $(".pop_in6").slideDown();
 	$(".pop_in3").slideUp();
 	$(".pop_in4").slideUp();
-	$(".pop_in2").slideUp();
+	$("#pop_in2").slideUp();
 	$(".pop_in5").slideUp();
 	$(".pop_in7").slideUp();
 	$(".pop_in8").slideUp();
@@ -128,7 +128,7 @@ $(".sub6 h2").on("mouseover", function() {
     $(".pop_in7").slideDown();
 	$(".pop_in3").slideUp();
 	$(".pop_in4").slideUp();
-	$(".pop_in2").slideUp();
+	$("#pop_in2").slideUp();
 	$(".pop_in5").slideUp();
 	$(".pop_in6").slideUp();
 	$(".pop_in8").slideUp();
@@ -139,7 +139,7 @@ $(".sub7 h2").on("mouseover", function() {
     $(".pop_in8").slideDown();
 	$(".pop_in3").slideUp();
 	$(".pop_in4").slideUp();
-	$(".pop_in2").slideUp();
+	$("#pop_in2").slideUp();
 	$(".pop_in5").slideUp();
 	$(".pop_in7").slideUp();
 	$(".pop_in6").slideUp();

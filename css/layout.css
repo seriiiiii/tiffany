@@ -46,7 +46,7 @@ nav{ width: 100%;
     position: absolute;
     left: 50%;
     margin-top: 100px;
-    margin-left: -490px;}
+    margin-left: -500px;}
 .nav li{float:Left;
 		margin-left:65px;}
 .nav li:nth-child(1){margin-left:0px;

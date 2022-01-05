@@ -42,11 +42,11 @@ header{width:100%;
 #account:hover h3{color:#54c4be;
 				transition:all 0.2s;}
 .nav li:hover h2{border-bottom:1px solid #54c4be;}
-nav{    width: 100%;
+nav{ width: 100%;
     position: absolute;
     left: 50%;
     margin-top: 100px;
-    margin-left: -462px;}
+    margin-left: -490px;}
 .nav li{float:Left;
 		margin-left:65px;}
 .nav li:nth-child(1){margin-left:0px;
